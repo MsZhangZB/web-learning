@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Î¢ÈíÑÅºÚ";
+}
+a{
+    text-decoration: none;
+}
+nav li{
+    float: left;
+    list-style: none;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+nav ul{
+    height: 50px;
+    background-color: rgba(0,0,0,.5);
+}
+nav a{
+    color: white;
+    text-decoration:none;
+}
+nav a:hover{
+    opacity: 0.4;
+}
+#loGo{
+    width: 165px;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+#researchF{
+    display: none;
+    width: 50px;
+}
+#researchImg{
+    width: 170px;
+    /*text-align: right;*/
+}
+#researchImg img{
+    /*width: 40px;
+    height: 40px;*/
+    padding-top: 5px;
+}
+#researchImg a:active{
+
+}
+#empty{
+    height: 200px;
+}
+#slogan{
+    color: white;
+    padding-top: 76px;
+}
+#sloganE{
+    color: white;
+    font-size: 13px;
+    background-color: #918064;
+    border-radius:5px ;
+    width: 190px;
+    margin: auto;
+    margin-top: 5px;
+}
+.bgImages{
+    height: 250px;
+    background-image:url("../images/bg.png");
+    background-size: cover;
+    text-align: center;
+}
+.contentTop li{
+    float: left;
+    list-style: none;
+    height: 50px;
+    font-size: 12px;
+    line-height: 50px;
+    text-align: left;
+}
+.contentTop ul{
+    height: 50px;
+    background-color:#f1f1f1;
+}
+#notice{
+    width: 60px;
+    margin-left: 20px;
+}
+.contentTop a{
+    color: #9595b2;
+    display: inline-block;
+    margin-left: 50px;
+}
+.contentTop a:hover{
+    text-decoration:underline;
+    color:skyblue;
+}
+input{
+    height: 30px;
+    width: 50px;
+}
+#Login{
+    text-align: right;
+    width: 50px;
+}
+#register{
+    text-align: left;
+    width: 50px;
+}
+#Login input{
+    border-radius: 7px 0 0 7px;
+    background-color: #766d5f;
+    border: none;
+    margin-right: 1px;
+}
+#register input{
+    border-radius: 0 7px 7px 0;
+    background-color:  #766d5f;
+    border: none;
+    margin-left: 1px;
+}
+.banner{
+    text-align: center;
+}
+.bannerLeft{
+    width: 625px;
+    height: 250px;
+    float: left;
+}
+.bannerMid{
+    width: 305px;
+    float: left;
+}
+.bannerRight{
+    width: 305px;
+    float: left;
+}
+.bannerMid img{
+    width: 300px;
+    height: 250px;
+}
+.bannerRight img{
+    width: 300px;
+    height: 250px;
+    float: left;
+}
+.myTrant{
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}

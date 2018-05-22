@@ -1,0 +1,142 @@
+nav{
+    z-index: 5;
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+}
+nav li{
+    float: left;
+    list-style: none;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+nav ul{
+    height: 50px;
+    background-color: rgba(0,0,0,.6);
+}
+nav a{
+    color: white;
+}
+nav a:hover{
+    opacity: 0.4;
+}
+.downList{
+    overflow: hidden;
+}
+.downList li:hover{
+    opacity: .8;
+}
+.downList a{
+    display: block;
+    width: 100px;
+    height: 50px;
+}
+.downList1:hover a{
+   color: deepskyblue;
+}
+.downList2:hover a{
+    color: deepskyblue;
+}
+.downList li{
+    background-color:#484034;
+}
+.downList:hover{
+    overflow: visible;
+}
+#loGo{
+    width: 165px;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+#researchF{
+    display: none;
+    width: 50px;
+}
+#researchImg{
+    width: 170px;
+}
+#researchImg img{
+    padding-top: 5px;
+}
+#researchImg a:active{
+
+}
+nav input{
+    height: 30px;
+    width: 50px;
+}/*nav里面按钮的通用设置*/
+#Login{
+    text-align: right;
+    width: 50px;
+    margin-left: 2px;
+}
+#Login input{
+    border-radius: 7px 0 0 7px;
+    background-color: #766d5f;
+    border: none;
+    margin-right: 1px;
+} /*登录按钮部分*/
+#register{
+    text-align: left;
+    width: 50px;
+}
+#register input{
+    border-radius: 0 7px 7px 0;
+    background-color:  #766d5f;
+    border: none;
+    margin-left: 1px;
+}/*注册按钮部分*/
+#empty{
+    height: 250px;
+}
+#slogan{
+    color: white;
+    padding-top: 100px;
+}
+#sloganE{
+    color: white;
+    font-size: 13px;
+    background-color: #918064;
+    border-radius:5px ;
+    width: 190px;
+    margin: auto;
+    margin-top: 5px;
+}/*网站标语*/
+.bgImages{
+    height: 300px;
+    background-image:url("https://ws1.sinaimg.cn/large/6ca89370gy1frk41fhubgj21xg0dwdpd.jpg");
+    background-size: cover;
+    text-align: center;
+}
+.headerbottom li{
+    float: left;
+    list-style: none;
+    height: 50px;
+    font-size: 12px;
+    line-height: 50px;
+    text-align: left;
+}
+.headerbottom ul{
+    height: 50px;
+    background-color:#f1f1f1;
+    overflow: hidden;
+}
+#notice{
+    width: 60px;
+    margin-left: 20px;
+}
+.headerbottom a{
+    color: #9595b2;
+    display: inline-block;
+    margin-left: 50px;
+}
+.headerbottom a:hover{
+    text-decoration:underline;
+    color:skyblue;
+}
